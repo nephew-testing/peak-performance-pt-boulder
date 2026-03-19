@@ -1,0 +1,10 @@
+{
+  "tenantId": "",
+  "apiUrl": "https://api.nephew.app",
+  "features": {
+    "booking": false,
+    "blog": true,
+    "contactForm": true,
+    "emailSubscribe": true
+  }
+}
