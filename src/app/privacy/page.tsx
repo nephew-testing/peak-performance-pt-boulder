@@ -1,0 +1,3 @@
+import { siteConfig } from "@/lib/config";
+export const metadata = { title: "Privacy Policy | " + siteConfig.business.name };
+export default function PrivacyPage() { const b = siteConfig.business; return (<main className="px-6 py-16"><div className="mx-auto max-w-3xl prose prose-lg"><h1>Privacy Policy</h1><p>{b.name} operates {siteConfig.seo.siteUrl}. We collect information you provide via contact forms and email subscriptions. We use it to respond to inquiries and send updates. We don&apos;t sell your data. Contact us at <a href={"mailto:"+b.email}>{b.email}</a> with any questions.</p></div></main>); }
